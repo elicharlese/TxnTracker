@@ -44,4 +44,3 @@ export function EmptyState({ onConnect }: EmptyStateProps) {
     </div>
   )
 }
-

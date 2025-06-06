@@ -5,7 +5,7 @@ import { ArrowRight, BarChart2, Users, Globe, Code, Shield } from "lucide-react"
 export default function AboutPage() {
   return (
     <div className="flex flex-col min-h-screen">
-      <header className="border-b">
+      <header className="sticky top-0 z-50 bg-background border-b">
         <div className="container flex h-16 items-center justify-between px-4 md:px-6">
           <div className="flex items-center gap-2">
             <Link href="/" className="flex items-center gap-2">
@@ -110,11 +110,7 @@ export default function AboutPage() {
             <div className="mx-auto grid max-w-5xl grid-cols-1 gap-8 md:grid-cols-3 lg:gap-12 mt-12">
               <div className="flex flex-col items-center space-y-4 text-center">
                 <div className="h-32 w-32 overflow-hidden rounded-full bg-gray-200">
-                  <img
-                    src="/placeholder.svg?height=128&width=128"
-                    alt="Team member"
-                    className="h-full w-full object-cover"
-                  />
+                  <img src="/confident-professional.png" alt="Team member" className="h-full w-full object-cover" />
                 </div>
                 <div className="space-y-2">
                   <h3 className="text-xl font-bold">Alex Chen</h3>
@@ -126,11 +122,7 @@ export default function AboutPage() {
               </div>
               <div className="flex flex-col items-center space-y-4 text-center">
                 <div className="h-32 w-32 overflow-hidden rounded-full bg-gray-200">
-                  <img
-                    src="/placeholder.svg?height=128&width=128"
-                    alt="Team member"
-                    className="h-full w-full object-cover"
-                  />
+                  <img src="/confident-professional.png" alt="Team member" className="h-full w-full object-cover" />
                 </div>
                 <div className="space-y-2">
                   <h3 className="text-xl font-bold">Sophia Rodriguez</h3>
@@ -142,11 +134,7 @@ export default function AboutPage() {
               </div>
               <div className="flex flex-col items-center space-y-4 text-center">
                 <div className="h-32 w-32 overflow-hidden rounded-full bg-gray-200">
-                  <img
-                    src="/placeholder.svg?height=128&width=128"
-                    alt="Team member"
-                    className="h-full w-full object-cover"
-                  />
+                  <img src="/confident-executive.png" alt="Team member" className="h-full w-full object-cover" />
                 </div>
                 <div className="space-y-2">
                   <h3 className="text-xl font-bold">Marcus Johnson</h3>
@@ -277,4 +265,3 @@ export default function AboutPage() {
     </div>
   )
 }
-

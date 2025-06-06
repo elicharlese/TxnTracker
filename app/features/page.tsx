@@ -16,7 +16,7 @@ import {
 export default function FeaturesPage() {
   return (
     <div className="flex flex-col min-h-screen">
-      <header className="border-b">
+      <header className="sticky top-0 z-50 bg-background border-b">
         <div className="container flex h-16 items-center justify-between px-4 md:px-6">
           <div className="flex items-center gap-2">
             <Link href="/" className="flex items-center gap-2">
@@ -219,4 +219,3 @@ export default function FeaturesPage() {
     </div>
   )
 }
-

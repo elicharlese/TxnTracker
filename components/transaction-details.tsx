@@ -182,4 +182,3 @@ export function TransactionDetails({ transactionId, onClose }: TransactionDetail
     </div>
   )
 }
-

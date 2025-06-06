@@ -73,4 +73,3 @@ TableCaption.displayName = "TableCaption"
 const Header = () => null
 
 export { Table, TableHeader, TableBody, TableFooter, TableHead, TableRow, TableCell, TableCaption, Header }
-
